@@ -1,0 +1,23 @@
+.letter {
+    margin: 1rem;
+    padding: 1rem;
+    width: 80%;
+    border: 2px solid #1d3557
+}
+
+.letter:nth-child(even) {
+    background: #a8dadc
+}
+
+.letter:nth-child(odd) {
+    background: #457b9d;
+    color: white
+}
+
+#letter__topic {
+    background: #e63946;
+    color: #f1faee;
+    border-radius: 5px;
+    text-align: center;
+    width: 125px;
+}
